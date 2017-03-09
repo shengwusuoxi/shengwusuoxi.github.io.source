@@ -5,6 +5,7 @@ environment:
     secure: KqP2Vu7zMGJz1yC5HWzi3b5eD3EUnaXPzfs6KF1b55tuZWhLwt9yU5QlWB/yh1E3
 
 install:
+  - git submodule update --init --recursive
   - node --version
   - npm --version
   - npm install
