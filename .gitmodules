@@ -4,3 +4,7 @@
 [submodule "themes/raytaylorism"]
 	path = themes/raytaylorism
 	url = https://github.com/raytaylorlin/hexo-theme-raytaylorism.git
+[submodule "themes/next"]
+	path = themes/next
+	url = https://github.com/iissnan/hexo-theme-next.git
+	branch = master
