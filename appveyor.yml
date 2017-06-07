@@ -10,9 +10,11 @@ install:
   - npm --version
   - npm install
   - npm install hexo-cli -g
+  - npm install hexo-algolia@0.2.0
 
 build_script:
   - hexo generate
+  - hexo algolia
 
 artifacts:
   - path: public
