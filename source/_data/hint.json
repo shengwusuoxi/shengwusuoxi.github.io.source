@@ -1,8 +1,6 @@
 {
     "new": {
         "selector": [
-            ".menu-reading",
-            ".menu-about"
         ]
     }
 }
